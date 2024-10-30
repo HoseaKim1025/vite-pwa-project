@@ -26,43 +26,6 @@ const LoginPage: React.FC = () => {
         margin="normal"
       />
       <Button variant="contained" color="primary" onClick={handleLogin} fullWidth>Login</Button>
-      <Typography variant="h4" gutterBottom>Login</Typography>
-      <TextField
-        label="Username"
-        value={username}
-        onChange={(e) => setUsername(e.target.value)}
-        fullWidth
-        margin="normal"
-      />
-      <Button variant="contained" color="primary" onClick={handleLogin} fullWidth>Login</Button>
-      <Typography variant="h4" gutterBottom>Login</Typography>
-      <TextField
-        label="Username"
-        value={username}
-        onChange={(e) => setUsername(e.target.value)}
-        fullWidth
-        margin="normal"
-      />
-      <Button variant="contained" color="primary" onClick={handleLogin} fullWidth>Login</Button>
-      <Typography variant="h4" gutterBottom>Login</Typography>
-      <TextField
-        label="Username"
-        value={username}
-        onChange={(e) => setUsername(e.target.value)}
-        fullWidth
-        margin="normal"
-      />
-      <Button variant="contained" color="primary" onClick={handleLogin} fullWidth>Login</Button>
-      <Typography variant="h4" gutterBottom>Login</Typography>
-      <TextField
-        label="Username"
-        value={username}
-        onChange={(e) => setUsername(e.target.value)}
-        fullWidth
-        margin="normal"
-      />
-      <Button variant="contained" color="primary" onClick={handleLogin} fullWidth>Login</Button>
-      
     </Container>
   );
 };
